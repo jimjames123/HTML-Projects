@@ -1,0 +1,75 @@
+CSS
+/* body{
+
+} */
+body{box-sizing: border-box;
+    background-image:url("image.jpg") 
+}
+input[type=text], input[type=email], ,input[type=password], 
+{
+    width: 25%;
+    padding: 12px;
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 4px;
+    resize: vertical;
+}
+textarea{
+    width:45%;
+    padding: 12px;
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 4px;
+    resize: vertical;
+}
+p{text-align: center}
+
+h1{
+    font-family: Arial;
+    font-size:30px;
+    font-style: normal;
+    font-weight: bold;
+    color: brown;
+    text-align: center;
+    text-decoration: none;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float:left;
+}
+input[type=submit]:hover {
+background-color: #32a336;
+}
+.container{
+    margin-top:70px ;
+    margin-inline-start: 150px;
+    border-radius: 5px;
+    background-color:#f2f2f2;
+    padding: 20px;
+    width:900px; 
+}
+.reg{
+    float: left;
+    width:10%;
+    margin-top: 6px;
+}
+.col-90{
+    float: left;
+    width: 80%;
+    margin-top: 6px;
+    
+    
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
