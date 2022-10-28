@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+#jim{
+  width:100px; height:100px;
+  border-radius: 50%;
+}
+body{
+  background-image:-moz-linear-gradient(#636162,#blafaf);
+  height:122vh;
+  font-weight:bold;
+  letter-spacing:2px;
+}
+
+*{
+  margin:0px; padding:0px; font-family:'Montserrat',sans-serif;
+}
+.main{
+  background-color: white;
+  height: auto;
+  width: 650px;
+  position: absolute; 
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+
+.left{
+  background: color #fbb03b;
+  width: 200px;
+  height: 100%;
+  float:left;
+}
+
+.right{
+  width: 450px;
+  float: left;
+}
+
+.profile-img{
+  height: 100px;
+  width: 180px;
+  background-color:#ddd;
+  border-radius: #50%;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  border:10px solid #fbb03b;
+  box-shadow:6px 7px 10px 5px #fbb03b;
+}
+.profile-img{
+  width: 100%;
+  border:50%;
+
+}
+.box-1{
+  position: relative;
+}
+
+.heading{
+  background-color: #4d4d4d;
+  padding:10px;
+  color:#fbb03b;
+  text-align:left;
+  padding-left: 20px;
+}
+
+.heading::after{
+  content:'';
+  position: absolute;
+  width: 21px;
+  height: 18px;
+  background-color: #5a5959;
+  left: 191px;
+  top: 26px;
+  transform: rotate(56deg);
+  z-index: -1;
+}
+
+.p1{
+  padding: 9px 10px;
+  font-size: 11px;
+}
+.icons{
+  font-size: 16px!important;
+  padding-right: 10px!important;
+  vertical-align: sub;
+}
+.skill-container{
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color:white !important;
+}
+.skill{
+  text-align:right;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color:white
+}
+
+.html{
+  width:90%;
+  background-color: white;
+
+}
+.css{}
+
